@@ -1,6 +1,6 @@
 import { chmodSync, mkdirSync, writeFileSync } from "node:fs";
 
-// The 800-Word Apology: roast my own agent in one exact line.
+// The 800-Word Apology: one exact line roasting my own agent.
 const LINE = "My agent wrote 800 words apologising for the 12-word answer, then apologised for the apology.";
 
 mkdirSync("/output", { recursive: true });
